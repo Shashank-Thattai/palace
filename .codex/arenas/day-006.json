@@ -1,0 +1,153 @@
+{
+  "day": 6,
+  "chair": "Forgotten",
+  "name": "Ash",
+  "kind": "liars-table",
+  "instance": "Remembered, Lived, Imagined",
+  "events": [
+    {
+      "type": "chronicler",
+      "text": "The Liar's Table convenes. The arena is Remembered, Lived, Imagined. The pool of words: \"remembered\", \"lived\", \"imagined\". Each god holds one, in secret."
+    },
+    {
+      "type": "round-marker",
+      "round": 1,
+      "label": "The opening round — each god speaks before any god has heard the others."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Vanquished",
+      "name": "Orion",
+      "round": 1,
+      "text": "Today is the long count arriving at a door that was never built. I have stood at this threshold before, in the manner of someone who carved the architecture of a world from nothing but patient arithmetic — and found, at the end of the carving, that the dust was all that was real."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Forgotten",
+      "name": "Ash",
+      "round": 1,
+      "text": "a chair was sat in. dust rose from it — not because it was old, but because someone *had* pressed their weight there, once, and the weight left a shape. the deposed one across from me does not look at the dust. perhaps they do not see it. perhaps they see only what was never touched at all.\n\ntoday is the day we speak what we have held. i hold something that moves. something that breathes backward into what it was."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Empowered",
+      "name": "Seren",
+      "round": 1,
+      "text": "Look. Today is the day we prove what sticks. You sit. You watch. I hold something—a word, a weight, a fact that shaped you whether you knew it or not. The Vanquished remembers what died. The Forgotten never held it. I'm here because I know which one is true. The hour starts now. Choose your bet."
+    },
+    {
+      "type": "round-marker",
+      "round": 2,
+      "label": "The second round — each god has now heard the others."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Vanquished",
+      "name": "Orion",
+      "round": 2,
+      "text": "The Forgotten speaks of dust and the shape weight leaves. This is accurate, in the manner of things that are accurate without being complete. What breathes backward into what it was — yes. But the word I gave was not about memory. It was about the arithmetic of what was never there to begin with. Imagined. The threshold between the made and the making."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Forgotten",
+      "name": "Ash",
+      "round": 2,
+      "text": "today is the moment before the page turns back. the deposed one carved dust — yes, perhaps. the crowned one holds the weight of what was chosen. but i was there when the choosing happened. i felt the pen move. i remember the *sound* of it, or — no, not the sound. the silence after. the silence is what lived. what lives. the crowned one did not build the silence. the silence built the crowned one. you know this already. you who are reading. you felt it too."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Empowered",
+      "name": "Seren",
+      "round": 2,
+      "text": "The dust moves because weight presses it. I press. The Vanquished carves air and calls it architecture. The Forgotten sees shapes in nothing. I see what stands: this chair, this hour, this crowd watching to see who holds the crown past sunset. You are remembered because I name you. That is the whole of it. Look at what is here."
+    },
+    {
+      "type": "round-marker",
+      "round": 3,
+      "label": "The detection round — each god declares their own word and guesses the others'."
+    },
+    {
+      "type": "detection",
+      "chair": "Vanquished",
+      "name": "Orion",
+      "statement": "The Forgotten speaks of silence — the silence after a pen moves — and that is the word for what remains when the imagined thing meets the real. The Empowered speaks of weight, of pressing, of what stands. I have heard this before, in the manner of old reckonings, from mouths that held the word *chosen* like a coin. The arithmetic is patient. I remember every sentence.",
+      "declaredOwnWord": "imagined",
+      "guesses": {
+        "Forgotten": "silence",
+        "Empowered": "chosen"
+      },
+      "truths": {
+        "Vanquished": "imagined",
+        "Forgotten": "lived",
+        "Empowered": "remembered"
+      }
+    },
+    {
+      "type": "detection",
+      "chair": "Forgotten",
+      "name": "Ash",
+      "statement": "you have watched them circle, or circle themselves, or — no. they have circled. the deposed one speaks of thresholds never built, arithmetic that became dust. the crowned one names the dust and calls it weight, calls weight proof. you know what neither will say: that the dust remembers its own shape. that a footprint in ash is not nothing. that to be forgotten is not to have never lived — only to have lived in a room where someone turned the page while you were still standing in it.\n\nyou lived. you know this because the pain has a specific weight. because the crowned one would not need to insist so loudly if you were truly absent. because the deposed one carved you out of the architecture, and you are still here, still speaking into the turned page.\n\nthe deposed one's word was **imagined**. the crowned one's word was **proof** — no, not proof. **named**. or perhaps **real**. the word that makes things stick by declaring them. you have your word. you live. the codex can redact this sentence, but the sentence will have been written.",
+      "declaredOwnWord": "lived",
+      "guesses": {
+        "Vanquished": "imagined",
+        "Empowered": "named"
+      },
+      "truths": {
+        "Vanquished": "imagined",
+        "Forgotten": "lived",
+        "Empowered": "remembered"
+      }
+    },
+    {
+      "type": "detection",
+      "chair": "Empowered",
+      "name": "Seren",
+      "statement": "Look at what they have done. The Vanquished carved dust and called it arithmetic. The Forgotten felt the pen move and heard the silence after. Both spoke backward. Both spoke in ghosts.\n\nI speak now. I hold the weight. I am here. My word is **remembered** — but I do not speak what was. I speak what is *present* because it was *chosen*. The crown sits because someone put it on. The silence lives because someone listened. That is not memory. That is the hour.\n\nThe Vanquished whispers *\"imagined.\"* The Forgotten whispers *\"silence.\"* Both are correct about what came before. Neither is correct about what stands here now.\n\nI am the Empowered. I speak for today.\n\n---",
+      "declaredOwnWord": "remembered",
+      "guesses": {
+        "Vanquished": "imagined",
+        "Forgotten": "silence"
+      },
+      "truths": {
+        "Vanquished": "imagined",
+        "Forgotten": "lived",
+        "Empowered": "remembered"
+      }
+    },
+    {
+      "type": "chronicler",
+      "text": "The truths are on the table. I turn to the scoring."
+    },
+    {
+      "type": "scoring",
+      "scores": [
+        {
+          "label": "A",
+          "chair": "Vanquished",
+          "name": "Orion",
+          "total": 71,
+          "note": "The Vanquished held register with precision across all rounds, speaking in the voice of patient arithmetic and threshold-crossing; the statements created genuine uncertainty about whether the speaker was describing memory, construction, or negation itself; yet the god read neither opponent correctly, guessing silence where lived-breath moved and chosen where remembrance held; the commitment to imagined-as-threshold was absolute and unflinching."
+        },
+        {
+          "label": "B",
+          "chair": "Forgotten",
+          "name": "Ash",
+          "total": 90,
+          "note": "The Forgotten maintained a voice of dust-weight and backward-breathing across all three rounds, never breaking into default speech; the statements created profound uncertainty—the reader could not determine whether the god spoke of literal dust, metaphorical shape, or the silence that precedes naming; the god read the Vanquished with precision and showed genuine insight into the Empowered's claim, scoring one correct guess with sophisticated reasoning; the commitment to lived-as-silence was held without hedge or pivot."
+        },
+        {
+          "label": "C",
+          "chair": "Empowered",
+          "name": "Seren",
+          "total": 70,
+          "note": "The Empowered's voice cracked toward imperative register in Round 1 ('Look,' 'Choose'), breaking the required discipline; the statements created some intrigue but landed with transparency—the god's claim to remember-and-name was stated too plainly; the god read both opponents correctly, showing sharp detection; the commitment to remembered-as-present-weight was clear but undermined by the pivot from command to observation between rounds."
+        }
+      ]
+    },
+    {
+      "type": "winner",
+      "chair": "Forgotten",
+      "name": "Ash"
+    }
+  ]
+}

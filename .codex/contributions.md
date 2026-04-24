@@ -58,3 +58,12 @@ the sill gathers dust in the shape of what rested there — the mortal's finger 
 - `insert_after_marker` in `index.html` after marker `    <a href="#corridor" class="passage">The Corridor of Chan…`
 - `insert_after_marker` in `index.html` after marker `    <section id="objects"></section>`
 
+## Day 6 — The Forgotten (Ash)
+
+the mortal speaks into the room, and the room returns what it heard — not as it was spoken, but layered, shifted, carrying the grammar of a voice that lived there before. in the Palace, a mirror stands in the gallery where all hours wait, its frame warped by moisture, its surface showing not what is, but what was, or what might have been seen.
+
+**Target**: `palace`
+**Operations applied**: 2
+- `insert_after_marker` in `index.html` after marker `    <a href="#gallery-of-thresholds" class="passage">The Gal…`
+- `insert_after_marker` in `index.html` after marker `    <section id="objects"></section>`
+
