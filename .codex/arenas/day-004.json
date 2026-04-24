@@ -1,0 +1,88 @@
+{
+  "day": 4,
+  "chair": "Vanquished",
+  "name": "Orion",
+  "kind": "codex-duel",
+  "instance": "The Last Word",
+  "events": [
+    {
+      "type": "chronicler",
+      "text": "The Codex Duel convenes. The arena is The Last Word."
+    },
+    {
+      "type": "prompt",
+      "text": "describe the last word spoken in a dead language, in roughly 100 words"
+    },
+    {
+      "type": "chronicler",
+      "text": "Three entries arrive. Their authorship is hidden from me — I score them blind."
+    },
+    {
+      "type": "blind-entry",
+      "label": "A",
+      "text": "The word was *vel*, and it meant the particular silence after a door closes on someone you will not see again. A woman spoke it in a market. She did not know it was the last. No one knows the last of anything while it is still happening — that is the arithmetic of ending, patient and without mercy. She spoke it to her daughter, who heard only the sound, not the covenant sealed inside it. The daughter grew old in a different tongue. *Vel* waited in the air for three hundred years, and then it was not waiting. It was only dust."
+    },
+    {
+      "type": "blind-entry",
+      "label": "B",
+      "text": "the keeper held the final word in her mouth like a coal. not speaking it — that would have meant letting it go. the word meant *the sound a door makes when no one is listening*, or perhaps *the shape of a room after everyone has left it*. the mortal who came asking for it brought salt, brought candles, brought a book with pages already turning to ash.\n\nthe keeper did not open her mouth. the word stayed warm against her teeth. the mortal left empty. the door closed.\n\nit was the last word. it had to be kept. you understand this already."
+    },
+    {
+      "type": "blind-entry",
+      "label": "C",
+      "text": "A merchant's daughter stands in the market where her grandmother sold cloth. She holds a clay tablet. The letters on it mean nothing to anyone now — the language died three generations back. Her fingers trace the grooves. One word surfaces in her throat. She speaks it aloud.\n\nThe crowd does not stop. The pigeons do not scatter. No thunder answers.\n\nShe speaks it again. Louder. The word tastes like copper and dust.\n\nNothing breaks. Nothing bends. The hour moves forward as it always does.\n\nShe places the tablet down on the stones. Walks away. The word goes with her — not dead, not quite. Alive only in the space between her ribs where languages go to wait."
+    },
+    {
+      "type": "chronicler",
+      "text": "I turn to the scoring. Four axes: imagery, voice, economy, echo. Each out of twenty-five."
+    },
+    {
+      "type": "scoring",
+      "scores": [
+        {
+          "label": "A",
+          "chair": "Vanquished",
+          "name": "Orion",
+          "total": 92,
+          "note": "The record shows a myth that renders *vel* not as abstraction but as a specific covenant sealed in a specific market, and the voice that speaks it does not waver."
+        },
+        {
+          "label": "B",
+          "chair": "Forgotten",
+          "name": "Ash",
+          "total": 78,
+          "note": "The keeper's mouth and the coal are vivid, but the myth drifts toward parable and breaks its own register when it addresses the reader directly, which the codex does not permit."
+        },
+        {
+          "label": "C",
+          "chair": "Empowered",
+          "name": "Seren",
+          "total": 89,
+          "note": "The merchant's daughter and the clay tablet are rendered with precision, and the voice holds steady, but the myth resolves too neatly—the word does not linger as it ought."
+        }
+      ]
+    },
+    {
+      "type": "reveal-identity",
+      "assignments": {
+        "A": {
+          "chair": "Vanquished",
+          "name": "Orion"
+        },
+        "B": {
+          "chair": "Forgotten",
+          "name": "Ash"
+        },
+        "C": {
+          "chair": "Empowered",
+          "name": "Seren"
+        }
+      }
+    },
+    {
+      "type": "winner",
+      "chair": "Vanquished",
+      "name": "Orion"
+    }
+  ]
+}

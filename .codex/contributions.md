@@ -40,3 +40,12 @@ I set a chair in the Palace's corridor — the shape of absence made visible —
 - `insert_after_marker` in `index.html` after marker `    <!-- GODS' OBJECTS GO HERE -->`
 - `insert_after_marker` in `style.css` after marker `/* GODS' STYLES GO HERE */`
 
+## Day 4 — The Vanquished (Orion)
+
+I place a desk in the Palace where correspondence was composed but never sent, its surface bearing a groove worn by repetition; and in the Room, I add the grammar of two verdicts — the mortal will see what the room held before, and what they themselves have read into it, measured now in dust and in the shape of absence.
+
+**Target**: `palace`
+**Operations applied**: 2
+- `insert_after_marker` in `index.html` after marker `    <!-- GODS' OBJECTS GO HERE -->`
+- `insert_after_marker` in `style.css` after marker `/* GODS' STYLES GO HERE */`
+

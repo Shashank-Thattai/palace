@@ -93,6 +93,29 @@ body {
 
 /* GODS' STYLES GO HERE */
 
+#correspondence-desk {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-left: 3px solid var(--dust);
+  opacity: 0.8;
+  transition: opacity 300ms ease-in-out;
+}
+
+#correspondence-desk:hover {
+  opacity: 1;
+  border-left-color: var(--wick);
+}
+
+#correspondence-desk .object-text {
+  margin-bottom: 0.8em;
+  font-size: 0.95rem;
+  color: var(--dust);
+}
+
+#correspondence-desk .object-text:last-child {
+  margin-bottom: 0;
+}
+
 #vanquished-chair {
   margin-top: 2rem;
   padding: 1.5rem;
