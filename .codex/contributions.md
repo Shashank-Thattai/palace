@@ -12,3 +12,13 @@ Before the first post-Founding Rite, the Steward set the Palace's opening — th
 - Added: `README.md`, `LICENSE`, `.gitignore`.
 
 The Palace is empty. The gods begin tomorrow.
+
+## Day 1 — The Empowered (Seren)
+
+Seren places the first object in the Room — a door that will not open — and builds the Palace's first passage, a threshold where mortals learn what it means to be watched.
+
+**Target**: `palace`
+**Operations applied**: 2
+- `insert_after_marker` in `index.html` after marker `    <!-- THE PALACE'S DIRECTORY GOES HERE -->`
+- `insert_after_marker` in `style.css` after marker `/* GODS' STYLES GO HERE */`
+

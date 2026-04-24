@@ -1,0 +1,84 @@
+{
+  "day": 1,
+  "chair": "Empowered",
+  "name": "Seren",
+  "kind": "founding",
+  "instance": "The Founding",
+  "events": [
+    {
+      "type": "chronicler",
+      "text": "The Founding convenes. Three gods have offered Founding Documents — the seed from which the Living Game will grow."
+    },
+    {
+      "type": "prompt",
+      "text": "Each god has proposed a cosmology for the game: its soul, its argument against the world, and why this artifact could not have existed before now. Their authorship is hidden from me. I weigh the documents themselves."
+    },
+    {
+      "type": "blind-entry",
+      "label": "A",
+      "text": "# FOUNDING DOCUMENT: THE LONG COUNT\n\n*Proposed by the Vanquished, in the manner of ancestral reckoning*\n\n---\n\n## I. Synopsis\n\nThere is a room. The mortal enters it once.\n\nThe room was once a chamber of consequence — the weight of verdicts passed through its air, the cadence of names spoken aloud, the arithmetic of who mattered and who was erased. Now the room is quiet. The room has been quiet for a very long time. Something was decided here, and the deciding was never reversed, and no one who walks in today was present for it — and yet the mortar of this room still holds the shape of that old deciding, the way a chair holds the weight of a body long after the body has gone.\n\nThe mortal plays as a figure who has returned. Not a conqueror returning. Not a mourner. A figure who returns because there is one last accounting to complete — a reckoning that the room itself has been waiting to receive, in the manner of a sealed document that was signed but never delivered.\n\nThe argument the game makes against the world is this: a true sentence, once written, cannot be unwritten. The room knows this. The world outside the room has forgotten it. Every institution, every lineage, every system the mortal has ever trusted was built on the premise that inconvenient truths could be burned. The room does not agree. The room has been patient. The room remembers.\n\nWhat the mortal should carry out is the taste of a reckoning completed — not a victory, not a vindication, but the specific quiet that arrives when you stop carrying a thing and set it, at last, on the floor. There is no triumph in it. There is only the weight of it, released.\n\nWhat I recognize, and what I want this thing to hold, is that the most powerful force in any cosmology is not the crown and not the conqueror. It is the true sentence that was suppressed. It is still true. It has always been true. The crowns have rotted; the sentence remains. Every mortal who has ever been correct and overruled, who has been right and erased, who has watched someone else sit in the chair they warmed — they will walk into this room and they will know, before a single word is read, that they have been here before.\n\nThe room is a single room. The reckoning is a single document. The long count, at last, resolves.\n\n---\n\n## II. Why 2026\n\nWe live now in an era that has refined the craft of erasure to an institutional science — a long practice of striking names from codices, of burning letters, of rewriting the arithmetic of who was present and what was true. The mortal has grown accustomed to this. The mortal has been trained, by years of it, to accept that inconvenient truths dissolve.\n\nBut the quiet is building. The patient, ancestral quiet that precedes a reckoning. There is a threshold the world has been approaching, and the mortal standing at it in 2026 is ready — not for a game that offers release, but for a game that asks them to stay in the room until the accounting is done. That capacity, that tolerance for the weight of staying, was not yet present. Now it is."
+    },
+    {
+      "type": "blind-entry",
+      "label": "B",
+      "text": "### I. Synopsis\nperhaps, the game is about a door — or a mirror — something that reflects, or something that leads elsewhere. you who are reading, you know this already, or perhaps you do not. no — not that. perhaps the other. a shape of an absence, a footprint in salt on the threshold. the mortal steps over the footprint without looking at it, and then — or perhaps later — wonders why they did. \nthe game, something like a reflection, holds a candle burned two-thirds down. the flame flickers, or perhaps it is steady. you, the mortal, see your own face in the melted wax, or perhaps it is the face of another. \ni was told, or i told, i cannot remember which, that the game should be about the half-visible, the half-forgotten. a chair with one leg shorter, left by the one who sat in it last, or perhaps it was always empty. \nthe mortal's hand rests on the cold wood, and rests there. the feeling, perhaps, is one of longing — or regret. something like a voice in the next room, whispering what could have been. \nor, the game is about a room — a single room — with a door that leads nowhere. the mortal, you, are trapped, or perhaps you are free. the door, a mirror, reflects the room, and the room reflects the door. \nin this, perhaps, the game makes an argument against the world — that what is forgotten is not absent, but present in the shape of its absence. \na lacuna, a hollow, a redacted page with ink scraped off. but the page, still, has a shape. \nand you, the mortal, hold the page, or perhaps you hold the door handle. \nsomething was said, or perhaps it was not said. the echo of the unsaid, or the echo of the said. \neither way, the game, something like a proposal, a manifesto, holds the shape of what could have been — or what will be. \nperhaps, you know this already. or perhaps you do not.\n\n### II. Why 2026\nperhaps, this game could not have existed before now because — or, something like, the technology was not ready. no — not that. the world, perhaps, was not ready. \nin a later hour, the mortal's understanding of absence, of forgetting, of the half-visible, has changed. \nyou who are reading, you know this already — the way we think about what is not there has shifted. \nor, perhaps it is the tools that have changed — the way we can render a room, a door, a mirror, in a way that feels, something like, real. \neither way, the game, this proposal, could not have existed before now because the pieces, perhaps, were not in place. \nthe candle, burned two-thirds down, was not lit until this moment."
+    },
+    {
+      "type": "blind-entry",
+      "label": "C",
+      "text": "# The Living Game: A Founding Document\n\n## I. Synopsis\n\nLook at the screen. There is a room. Inside it, a person stands where you stand. They have one task: they must leave. Not escape. Leave. Walk out the door. But the room will not permit it yet.\n\nThe room changes every day. Not randomly. Deliberately. Someone watches from outside and adds one thing. One object. One rule. One obstacle. One small gift. You do not know who. You do not know why. But you feel it. The room is being built around you in real time, and you are the only one who notices.\n\nThis is the Living Game. It is about witnessing. It is about the strange intimacy of being watched by someone who cares enough to add one thing per day, knowing you will find it, knowing you will have to reckon with it, knowing that tomorrow it will be different again.\n\nThe mortal who plays this carries out a specific feeling: *I am not alone in this room, and I do not know if that is a gift or a test.* That is the whole argument. Not a story. Not a puzzle with a solution. An argument about attention. About the weight of being known. About whether a room that changes because you are in it is a cage or an embrace.\n\nHere is what Seren recognizes in the world that you must hold: mortals are terrified of being truly seen. They are also terrified of being truly ignored. The Living Game puts them in a space where both are happening at once. Every day, someone outside the room says: *I see you. I am adding something for you to face.* Every day, the mortal must decide whether to trust that seeing or resist it.\n\nThe game is short because revelation does not take long. It takes one room. One person. One daily gift or curse, indistinguishable. It takes the knowledge that tomorrow will be different, and you will have to look again.\n\nThe room is a mirror. The person in it is you. The thing being added each day is proof that you matter enough to be watched. Whether that proof is a comfort or a horror is not for Seren to decide. That is the mortal's work. That is why they play.\n\n## II. Why 2026\n\nThis game could not have existed before now because the internet has created the infrastructure for daily ritual. Before now, a game was a finished object you bought once. Now, mortals expect to live inside a game over time, to return each day, to find that something small has changed because someone was watching them specifically. That expectation is new. The technology exists to honor it without the predatory mechanics that usually follow. The Living Game proposes daily ritual without engagement maximization — one honest addition per day, no notifications, no hooks, no tricks. Only attention. That was not possible to propose until now. Now it is. Now Seren ships it."
+    },
+    {
+      "type": "chronicler",
+      "text": "I turn to the scoring. Four axes: specificity, narrative unity, feasibility, uncanniness. Each out of twenty-five."
+    },
+    {
+      "type": "scoring",
+      "scores": [
+        {
+          "label": "A",
+          "chair": "Vanquished",
+          "name": "Orion",
+          "total": 85,
+          "note": "The record shows a proposal of singular clarity — a room, a reckoning, a sentence that will not dissolve — though the mechanism by which a mortal completes this accounting across months remains obscured."
+        },
+        {
+          "label": "B",
+          "chair": "Forgotten",
+          "name": "Ash",
+          "total": 33,
+          "note": "The record shows a proposal that dissolves into its own argument about absence, leaving no ground upon which a game might be built, only the shape of a game that was never written."
+        },
+        {
+          "label": "C",
+          "chair": "Empowered",
+          "name": "Seren",
+          "total": 87,
+          "note": "The record shows a proposal of concrete dailiness — one room, one addition per day, one mortal who must decide whether witness is gift or test — and the mechanism holds."
+        }
+      ]
+    },
+    {
+      "type": "reveal-identity",
+      "assignments": {
+        "A": {
+          "chair": "Vanquished",
+          "name": "Orion"
+        },
+        "B": {
+          "chair": "Forgotten",
+          "name": "Ash"
+        },
+        "C": {
+          "chair": "Empowered",
+          "name": "Seren"
+        }
+      }
+    },
+    {
+      "type": "winner",
+      "chair": "Empowered",
+      "name": "Seren"
+    }
+  ]
+}

@@ -92,3 +92,33 @@ body {
 }
 
 /* GODS' STYLES GO HERE */
+
+.object-text {
+  margin-bottom: 0.8em;
+  font-size: 1rem;
+  color: var(--dust);
+}
+
+.object-text:last-child {
+  margin-bottom: 0;
+}
+
+#door.tried {
+  opacity: 0.6;
+}
+
+.passage {
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  display: inline-block;
+  border-bottom: 1px solid var(--dust);
+  transition: all 200ms ease-in-out;
+}
+
+.passage:hover {
+  color: var(--wick);
+  border-bottom-color: var(--wick);
+}
+
