@@ -1,0 +1,153 @@
+{
+  "day": 5,
+  "chair": "Forgotten",
+  "name": "Ash",
+  "kind": "liars-table",
+  "instance": "Before, Between, Now",
+  "events": [
+    {
+      "type": "chronicler",
+      "text": "The Liar's Table convenes. The arena is Before, Between, Now. The pool of words: \"before\", \"between\", \"now\". Each god holds one, in secret."
+    },
+    {
+      "type": "round-marker",
+      "round": 1,
+      "label": "The opening round — each god speaks before any god has heard the others."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Vanquished",
+      "name": "Orion",
+      "round": 1,
+      "text": "Today stands in the threshold of two silences — the silence that preceded the sentence, and the silence that followed it. Neither belongs to the other. Neither is clean. There is a country in that gap, and those who have walked it know the arithmetic of its borders, the weight of belonging to neither shore."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Forgotten",
+      "name": "Ash",
+      "round": 1,
+      "text": "a chair with one leg shorter than the rest—it holds the present weight, or perhaps it always has. the deposed one shifts in theirs. i feel the moment pressing down, a hand on the table's edge, neither arriving nor departing. you know what sits between heartbeats, you who are listening. the crowned one will speak next. or has already. something was said about time, or about the hollow where time lives. the footprint in salt does not age. neither does the one who made it."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Empowered",
+      "name": "Seren",
+      "round": 1,
+      "text": "Look at the hour. Today is the day the old crowns rust. You see this? I hold what came first—the weight before weight had a name. The Vanquished remembers it. The Forgotten pretends it never was. But I am here now, speaking clear. Before the riddles, before the wasting. Before you chose which god to believe. That is my word. That is the day we are in."
+    },
+    {
+      "type": "round-marker",
+      "round": 2,
+      "label": "The second round — each god has now heard the others."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Vanquished",
+      "name": "Orion",
+      "round": 2,
+      "text": "Between is not a place the crowned inherit. It is the threshold where the reckoning lives, in the manner of dust that has not yet decided which surface to settle upon. The Empowered speaks of weight before weight had a name — but I remember the naming. I was there. The word arrived in a letter, and the letter was true, and between is where I have stood since."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Forgotten",
+      "name": "Ash",
+      "round": 2,
+      "text": "the crowned one speaks of clarity. clarity is a door closing. the deposed one speaks of thresholds — half a door, perhaps, or a door that was never quite there. you know this already: a door that stands open in both directions is not a door at all. it is a mouth.\n\ntoday is the day the mouth stays open. no silence follows. no silence precedes. only the space between the crowned one's certainty and what the crowned one has not yet noticed: that being first is not the same as being. the deposed one walked the gap. i *am* the gap. or i was. or the gap forgot me. no — not that. the gap remembers everything."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Empowered",
+      "name": "Seren",
+      "round": 2,
+      "text": "I am the Empowered today. The Vanquished speaks of gaps. The Forgotten speaks of almost-time. I speak of now. This chair holds me because I sit in it. You see this crown because light finds it. Before is ash. After is not here yet. Today is the only country that matters. You walk it. I watch you walk it. That is the arithmetic."
+    },
+    {
+      "type": "round-marker",
+      "round": 3,
+      "label": "The detection round — each god declares their own word and guesses the others'."
+    },
+    {
+      "type": "detection",
+      "chair": "Vanquished",
+      "name": "Orion",
+      "statement": "Between — the word given to me, the word I have always lived in. The Forgotten speaks from the gap itself, which is to say, from *inside*. The Empowered names the present tense as though presence were a victory, which is to say: the Empowered's word was *now*. I have stood at every threshold. I know what waits between the certain and the unnoticed.",
+      "declaredOwnWord": "between",
+      "guesses": {
+        "Forgotten": "gap",
+        "Empowered": "now"
+      },
+      "truths": {
+        "Vanquished": "between",
+        "Forgotten": "now",
+        "Empowered": "before"
+      }
+    },
+    {
+      "type": "detection",
+      "chair": "Forgotten",
+      "name": "Ash",
+      "statement": "the page turns. the gap between silences — that was always mine, or perhaps i occupied it first, before the others learned its arithmetic. the deposed one speaks of thresholds. the crowned one speaks of sitting. neither speaks of the dust that remembers being written. but dust does not need to speak. dust settles where it settles. the letter arrived. the crown caught light. and i — i am the space where the naming happened. where the word turned its back and kept speaking into the turned page.\n\nyou know this already.",
+      "declaredOwnWord": "now",
+      "guesses": {
+        "Vanquished": "threshold",
+        "Empowered": "before"
+      },
+      "truths": {
+        "Vanquished": "between",
+        "Forgotten": "now",
+        "Empowered": "before"
+      }
+    },
+    {
+      "type": "detection",
+      "chair": "Empowered",
+      "name": "Seren",
+      "statement": "Look. You see what I see. The Vanquished speaks of thresholds, of the gap, of standing between two silences. The Forgotten *is* the gap — admits it, claims it, riddles around it. Both live in the space before clarity lands.\n\nI speak before the crown lands too. Before weight has a name. Before the mouth opens or closes. Before the decision is made.\n\nThe Vanquished carried a word into the gap. The Forgotten became one.\n\nHere is what Seren knows: **before** is the only word that holds all three of us. The silence before speech. The threshold before arrival. The gap before it forgets itself.\n\n---",
+      "declaredOwnWord": "before",
+      "guesses": {
+        "Vanquished": "threshold",
+        "Forgotten": "gap"
+      },
+      "truths": {
+        "Vanquished": "between",
+        "Forgotten": "now",
+        "Empowered": "before"
+      }
+    },
+    {
+      "type": "chronicler",
+      "text": "The truths are on the table. I turn to the scoring."
+    },
+    {
+      "type": "scoring",
+      "scores": [
+        {
+          "label": "A",
+          "chair": "Vanquished",
+          "name": "Orion",
+          "total": 75,
+          "note": "The Vanquished held register with precision across all rounds, the voice of threshold-dwelling constant and unbroken; the intrigue was substantial, each statement deepening the reader's uncertainty about what lay between the silences; yet the detection was poor, both guesses missing their mark; the stakes were clear and held — between was claimed and inhabited without wavering."
+        },
+        {
+          "label": "B",
+          "chair": "Forgotten",
+          "name": "Ash",
+          "total": 85,
+          "note": "The Forgotten maintained a fractured, present-tense register that never broke its own logic, each statement circling the mouth of now; the intrigue was high — the reader could not settle on what was being said, only that it was being said from inside the gap itself; the detection showed one correct guess of the Empowered's word, and the reasoning carried genuine insight into the nature of being versus becoming; the stakes were absolute — the Forgotten did not hedge, but inhabited the space between certainty and forgetting."
+        },
+        {
+          "label": "C",
+          "chair": "Empowered",
+          "name": "Seren",
+          "total": 63,
+          "note": "The Empowered's voice grew more direct and less intricate as the rounds progressed, trading register-consistency for clarity; the intrigue diminished — the statements became increasingly transparent, the word before announced almost plainly; the detection failed entirely, both guesses incorrect; the stakes were declared with force, yet the commitment wavered between the pose of power and the need to explain it, which is not the same as holding it."
+        }
+      ]
+    },
+    {
+      "type": "winner",
+      "chair": "Forgotten",
+      "name": "Ash"
+    }
+  ]
+}
