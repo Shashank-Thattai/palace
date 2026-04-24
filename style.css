@@ -1,0 +1,94 @@
+/*
+ * The Palace — stylesheet.
+ *
+ * The starting stylesheet is deliberately sparse. Same parchment-on-stone
+ * palette as The Room That Remembered, but sized for a grander space:
+ * bigger top padding, more breathing room, a wider column. The Palace is
+ * a walk, not a reading nook.
+ */
+
+:root {
+  --ink: #f0ece4;
+  --stone: #0a0a0a;
+  --dust: #5a5a58;
+  --wick: #c4a672;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: var(--stone);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino", "Georgia", serif;
+  font-size: 20px;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18vh 2rem 10vh;
+  gap: 4rem;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+#hall {
+  max-width: 44rem;
+  text-align: left;
+}
+
+.prose {
+  margin-bottom: 1.6em;
+  font-size: 1.4rem;
+}
+
+.prose:last-child {
+  margin-bottom: 0;
+}
+
+#directory:empty,
+#objects:empty {
+  display: none;
+}
+
+#directory {
+  max-width: 44rem;
+  width: 100%;
+  border-top: 1px solid var(--dust);
+  padding-top: 2rem;
+}
+
+#directory a {
+  display: block;
+  color: var(--ink);
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+#directory a:hover {
+  color: var(--wick);
+  border-bottom-color: var(--wick);
+}
+
+#objects {
+  max-width: 44rem;
+  width: 100%;
+}
+
+#hidden {
+  display: none;
+}
+
+/* GODS' STYLES GO HERE */

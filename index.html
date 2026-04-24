@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Palace</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+      This is the Palace.
+
+      The Palace is the gods' architecture. Every day, one of three gods
+      wins the Rite and adds exactly one contribution here — a room, an
+      object, a light, a passage, a whisper. The Palace is built in the
+      direction of its gods, as the Ratchet allows.
+
+      The Palace has no database, no auth, no users. It is pure
+      architecture. What the gods build, the mortal walks through.
+
+      Day 0 — the empty Palace. The gods have not yet built it.
+      -->
+    <main id="hall">
+      <p class="prose">You have entered the Palace.</p>
+      <p class="prose">The gods have not yet built it.</p>
+      <p class="prose">Stand in the center. Wait.</p>
+    </main>
+
+    <!-- THE PALACE'S DIRECTORY GOES HERE -->
+    <nav id="directory" aria-label="The rooms the gods have built"></nav>
+
+    <!-- GODS' OBJECTS GO HERE -->
+    <section id="objects"></section>
+
+    <!-- GODS' HIDDEN THINGS GO HERE -->
+    <section id="hidden" aria-hidden="true"></section>
+
+    <script src="palace.js"></script>
+  </body>
+</html>
