@@ -1,0 +1,153 @@
+{
+  "day": 2,
+  "chair": "Empowered",
+  "name": "Seren",
+  "kind": "liars-table",
+  "instance": "Before, Between, Now",
+  "events": [
+    {
+      "type": "chronicler",
+      "text": "The Liar's Table convenes. The arena is Before, Between, Now. The pool of words: \"before\", \"between\", \"now\". Each god holds one, in secret."
+    },
+    {
+      "type": "round-marker",
+      "round": 1,
+      "label": "The opening round — each god speaks before any god has heard the others."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Vanquished",
+      "name": "Orion",
+      "round": 1,
+      "text": "Today sits in the long count — not the first breath, not the last reckoning, but the seam where both press against each other and neither wins. I have lived in such places. The threshold is not an ending, nor a beginning; it is the hinge, the held moment, the arithmetic of what divides one silence from another."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Forgotten",
+      "name": "Ash",
+      "round": 1,
+      "text": "perhaps today is a door, or a mirror, you know this already... something like a moment, a thing that can be held, or maybe it's the thing that holds us, a point where... now, or so i've been told, is not the word, no — not that, perhaps the word is the opposite, or something in between..."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Empowered",
+      "name": "Seren",
+      "round": 1,
+      "text": "Look at your hands. They are not the same as they were. This is what today is. Something has already happened to you—before you walked in here, before you sat, before you knew the Liar's Table existed. The crown sits on a head that remembers a different weight. You came here to find out what. Seren came here knowing nothing. That is the truth I carry."
+    },
+    {
+      "type": "round-marker",
+      "round": 2,
+      "label": "The second round — each god has now heard the others."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Vanquished",
+      "name": "Orion",
+      "round": 2,
+      "text": "Between is not a resting place. It is the threshold where the door has already moved and the foot has not yet noticed. The Forgotten circles the word like smoke around a wound. The Empowered names the wound and calls it courage. I have stood in the between. It lasted three days. Then came the letter."
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Forgotten",
+      "name": "Ash",
+      "round": 2,
+      "text": "perhaps today is a doorway, or a mirror, you know this already... a shape of an absence, something was said, and you who are reading, step over the threshold, or through the glass, no — not that, perhaps the other, a footprint in dust, and the word on my lips is... silence, or maybe now"
+    },
+    {
+      "type": "god-speaks",
+      "chair": "Empowered",
+      "name": "Seren",
+      "round": 2,
+      "text": "Today is before the choice hardens. Before the crowd picks a winner. Before the crown finds its real owner and I hand it back.\n\nYou stand here now. You see me holding it. That changes tomorrow. Not the crown — me. I shift. I fail. The hour moves.\n\nLook at what you have. Look now. After this, you don't get it back the same way."
+    },
+    {
+      "type": "round-marker",
+      "round": 3,
+      "label": "The detection round — each god declares their own word and guesses the others'."
+    },
+    {
+      "type": "detection",
+      "chair": "Vanquished",
+      "name": "Orion",
+      "statement": "The Forgotten circles a threshold without naming it; the Forgotten's word is *threshold* — I recognize the architecture of something remembered imprecisely. The Empowered speaks of before, of the hour moving, of what is held now and lost after — the taste of *now*, worn plainly in the manner of one who believes plainness is armor. My word was *between*. I have lived in the space it names since the letter.",
+      "declaredOwnWord": "between",
+      "guesses": {
+        "Forgotten": "threshold",
+        "Empowered": "now"
+      },
+      "truths": {
+        "Vanquished": "between",
+        "Forgotten": "now",
+        "Empowered": "before"
+      }
+    },
+    {
+      "type": "detection",
+      "chair": "Forgotten",
+      "name": "Ash",
+      "statement": "perhaps the moment is a door — or a mirror — you who are reading, you stand before it, and it reflects... something. you know this already, or perhaps not. the crowned one's words, the deposed one's... no — not that. perhaps the other. a shape of an absence, a footprint in salt on the threshold. the mortal's hand rests on the cold wood, and rests there.",
+      "declaredOwnWord": "now",
+      "guesses": {
+        "Vanquished": "between",
+        "Empowered": "before"
+      },
+      "truths": {
+        "Vanquished": "between",
+        "Forgotten": "now",
+        "Empowered": "before"
+      }
+    },
+    {
+      "type": "detection",
+      "chair": "Empowered",
+      "name": "Seren",
+      "statement": "Look. The Vanquished speaks of thresholds and hinges. The Forgotten circles absence like smoke. Both dance around what comes before the step, before the door opens, before the word lands.\n\nI name it cleanly: before. The moment before the choice. Before the crown. Before the letter arrives.\n\nThe Vanquished says \"between.\" The Forgotten says nothing — which means \"silence.\" That is their word.\n\nNow the rite closes. You have heard all three voices. Choose who held the crown best.",
+      "declaredOwnWord": "before",
+      "guesses": {
+        "Vanquished": "between",
+        "Forgotten": "silence"
+      },
+      "truths": {
+        "Vanquished": "between",
+        "Forgotten": "now",
+        "Empowered": "before"
+      }
+    },
+    {
+      "type": "chronicler",
+      "text": "The truths are on the table. I turn to the scoring."
+    },
+    {
+      "type": "scoring",
+      "scores": [
+        {
+          "label": "A",
+          "chair": "Vanquished",
+          "name": "Orion",
+          "total": 75,
+          "note": "The Vanquished held register with precision across all rounds, the voice of threshold-dwelling unmistakable; the intrigue was substantial, the reader drawn into the seam between states; yet the detection was poor—two guesses failed entirely, suggesting the god read neither opponent with clarity; the stakes were high, a clear commitment to the between, lived without wavering."
+        },
+        {
+          "label": "B",
+          "chair": "Forgotten",
+          "name": "Ash",
+          "total": 72,
+          "note": "The Forgotten's voice fractured deliberately, the register of uncertainty itself becoming the register—a choice, though one that blurred the line between intrigue and opacity; the intrigue was moderate, the reader uncertain whether to lean in or dismiss; the detection was nearly flawless, two correct guesses and one near-miss, showing the god read the table with acuity; the stakes were hedged, the god pivoting through possibility rather than committing to ground."
+        },
+        {
+          "label": "C",
+          "chair": "Empowered",
+          "name": "Seren",
+          "total": 93,
+          "note": "The Empowered maintained unwavering register across all rounds, the voice of before-knowledge steady and commanding; the intrigue was high, the reader caught between the god's certainty and the crown's weight; the detection was strong, two correct guesses showing clear sight, though the third missed; the stakes were absolute—a god who declared truth plainly and held the position without flinch, the crown itself becoming the measure of commitment."
+        }
+      ]
+    },
+    {
+      "type": "winner",
+      "chair": "Empowered",
+      "name": "Seren"
+    }
+  ]
+}
