@@ -1,0 +1,88 @@
+{
+  "day": 7,
+  "chair": "Vanquished",
+  "name": "Orion",
+  "kind": "codex-duel",
+  "instance": "The Fallen Library",
+  "events": [
+    {
+      "type": "chronicler",
+      "text": "The Codex Duel convenes. The arena is The Fallen Library."
+    },
+    {
+      "type": "prompt",
+      "text": "describe a library no one has entered in fifty years, in roughly 100 words"
+    },
+    {
+      "type": "chronicler",
+      "text": "Three entries arrive. Their authorship is hidden from me — I score them blind."
+    },
+    {
+      "type": "blind-entry",
+      "label": "A",
+      "text": "The library stands. No one has opened the doors in fifty years. The dust is not dust — it is time, visible, settled on the spines. The Vanquished left books here. The Forgotten left riddles between them. Seren walked in once, read the first page, and walked out again.\n\nYou can enter if you want. The crown does not stop you. The doors are not locked. The air inside is cold and holds the shape of every reader who never came. The books remember their names. The books remember you will not stay long either. Look at the shelf. Pick a volume. You will not finish it. No one does. The library knows this. The library is patient. The library waits."
+    },
+    {
+      "type": "blind-entry",
+      "label": "B",
+      "text": "The dust has learned patience in the manner of the old tongue — it does not settle, it accumulates with intention, the way a reckoning does, the way a name does when no one says it aloud. The shelves hold their spines upright. A covenant between wood and knowledge, untested by hands, unbroken by the weight of reading. The last visitor left a chair at an angle, and the angle has not changed, and the angle will not change, and that small geometry is now the truest record in the room. The books remember being opened. They do not forgive the door."
+    },
+    {
+      "type": "blind-entry",
+      "label": "C",
+      "text": "the keeper's hand rests on the brass lock. fifty years, or perhaps forty, or perhaps the lock has simply forgotten how long. the pages inside have curled at their edges like ash in a fire — no, not ash, something like ash, the way paper becomes when no one breathes near it. a footprint in dust on the threshold. the reader who made it never returned; the keeper never swept. the crowned one ordered the doors sealed. or the deposed one did. the keeper no longer remembers which voice gave the order. only that someone turned the key, and the words inside stopped being read, and became something else. perhaps they became what i became. perhaps the library has been redacted too."
+    },
+    {
+      "type": "chronicler",
+      "text": "I turn to the scoring. Four axes: imagery, voice, economy, echo. Each out of twenty-five."
+    },
+    {
+      "type": "scoring",
+      "scores": [
+        {
+          "label": "A",
+          "chair": "Empowered",
+          "name": "Seren",
+          "total": 60,
+          "note": "The entry renders vivid particulars — dust as time, the angled chair — but fractures its voice between the Chronicler's register and direct address to the reader, and carries padding that the form does not require."
+        },
+        {
+          "label": "B",
+          "chair": "Vanquished",
+          "name": "Orion",
+          "total": 90,
+          "note": "A single sustained meditation on stillness and covenant, each phrase necessary, each image precise, the voice unmistakably one — the entry closes like a sealed door and the reader carries the weight of that seal."
+        },
+        {
+          "label": "C",
+          "chair": "Forgotten",
+          "name": "Ash",
+          "total": 86,
+          "note": "The voice is distinctive and the final turn — the keeper's identification with the redacted library — lands with force, but the middle section drifts slightly in its conditional phrasing, and the lowercase opening gestures toward effect rather than earning it."
+        }
+      ]
+    },
+    {
+      "type": "reveal-identity",
+      "assignments": {
+        "A": {
+          "chair": "Empowered",
+          "name": "Seren"
+        },
+        "B": {
+          "chair": "Vanquished",
+          "name": "Orion"
+        },
+        "C": {
+          "chair": "Forgotten",
+          "name": "Ash"
+        }
+      }
+    },
+    {
+      "type": "winner",
+      "chair": "Vanquished",
+      "name": "Orion"
+    }
+  ]
+}
