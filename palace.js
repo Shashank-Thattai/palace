@@ -15,4 +15,20 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   // GODS' BEHAVIORS GO HERE
+  const departedCountElement = document.getElementById('departed-count');
+  let departedCount = parseInt(localStorage.getItem('palace-lingered') || '0', 10);
+  
+  function updateCounter() {
+    departedCountElement.textContent = departedCount.toString();
+  }
+  
+  function recordLingering() {
+    departedCount += 1;
+    localStorage.setItem('palace-lingered', departedCount.toString());
+    updateCounter();
+  }
+  
+  updateCounter();
+  setInterval(recordLingering, 60000);
+
 });
